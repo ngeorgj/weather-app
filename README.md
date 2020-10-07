@@ -1,6 +1,6 @@
 # React + OpenWeatherAPI
 
-![Image]("https://github.com/ngeorgj/weather-app/weatherapp.png" "not working")
+![Image]("https://github.com/ngeorgj/weather-app/blob/main/weatherapp.png?raw=true" "not working")
 
 ## Available Scripts
 
