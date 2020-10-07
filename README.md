@@ -1,4 +1,6 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# React + OpenWeatherAPI
+
+![Image]("https://github.com/ngeorgj/weather-app/weatherapp.png" "not working")
 
 ## Available Scripts
 
