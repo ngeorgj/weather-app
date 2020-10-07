@@ -1,0 +1,94 @@
+.App {
+  text-align: center;
+  font-family: 'Open Sans', 'sans-serif';
+  background-image: url('./assets/warm.png');
+  background-position: bottom;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  transition: 1 ease-out;
+}
+
+.App.cold {
+  transition: 1 ease-out;
+  background-position: bottom;
+  background-image: url('./assets/cold.jpg');
+}
+
+main {
+  min-height: 100vh;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.01), rgba(0, 0, 0, 0.88));
+  padding: 20px;
+}
+
+.search-box {
+  margin: 0 auto;
+  width: 85%;
+}
+
+.search-bar {
+  padding: 10px;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  margin-top: -23px !important;
+  width: 100%;
+  margin: 0 auto;
+  border: none;
+  font-size: 34px;
+  background-color: #ffffff50;
+  border-radius: 0px 0px 16px 16px;
+  transition: 0.3s ease;
+  box-shadow: 0px 3px rgba(0, 0, 0, 0.20);
+}
+
+.search-bar:focus {
+  appearance: none;
+  outline: none;
+  font-size: 48px;
+  background-color: #ffffff75;
+  transition: 0.3s ease;
+}
+
+.location-box {
+  margin-top: 150px;
+}
+
+.location-box .location {
+  font-size: 36px;
+}
+
+.location-box .date {
+  
+  font-size: 18px;
+}
+
+
+.temp {
+  border: 1px solid black;
+  margin: 0 auto;
+  border-radius: 6px;
+  width: 60%;
+  background-color: #FFFFFF10;
+
+  padding: 20px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 124px;
+  transition: 0.2s ease-in;
+
+  text-shadow: 3px 3px rgba(30, 30, 60, 0.3);
+}
+
+.temp:hover {
+  color: white;
+  transition: 0.5s ease-in;
+}
+
+.date {
+  margin-top: 8px;
+}
+
+.weather-box .weather {
+  font-size: 48px;
+  text-shadow: 2px 2px rgba(40, 40, 50, 0.2);
+}
